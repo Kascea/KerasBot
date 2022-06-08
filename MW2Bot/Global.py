@@ -17,11 +17,6 @@ def lobbies_channel(message):
         return True
     else: return False
 
-def cole_command(message):
-    if message.author.id == Id.Cole_ID and message.content == "!download":
-        return True
-    else: return False
-
 def image(message):
     if len(message.attachments) > 0:
         for attachment in message.attachments:

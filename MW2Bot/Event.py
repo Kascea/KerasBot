@@ -1,7 +1,6 @@
 import discord
 from Global import GUILD_ID
 from Global import lobby_channel_ID
-from Global import cole_command
 from Global import lobbies_channel
 from Global import lobby_category
 from Global import main_channel

@@ -1,4 +1,4 @@
 {
-  "main": "bot.py",
+  "main": "App.py",
   "requirementsFile": "requirements.txt"
 }

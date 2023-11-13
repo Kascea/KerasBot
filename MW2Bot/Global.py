@@ -1,19 +1,20 @@
-import Id
+from Id import Id
 
 img_types = ['bmp','jpeg','jpg','png', 'PNG', 'BMP', 'JPEG', 'JPG']
 
 def main_channel(message):
-    if message.channel.id == Id.main_chat_ID:
+    if message.channel.id == Id.Main_chat_ID:
         return True
     else: return False
 
 def lobby_category(message):
-    if message.channel.category.id == Id.lobby_category_ID:
+    if message.channel.category.id == Id.Lobby_category_ID:
         return True
     else: return False
 
 def lobbies_channel(message):
-    if message.channel.id == Id.lobby_channel_ID:
+    print(str(message.channel.id) + ": " + str(Id.Lobby_channel_ID))
+    if message.channel.id == Id.Lobby_channel_ID:
         return True
     else: return False
 

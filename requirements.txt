@@ -1,2 +1,2 @@
 aiohttp==3.7.1
-discord
+discord.py==1.7.3

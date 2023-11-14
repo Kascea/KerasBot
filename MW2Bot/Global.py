@@ -13,7 +13,6 @@ def lobby_category(message):
     else: return False
 
 def lobbies_channel(message):
-    print(str(message.channel.id) + ": " + str(Id.Lobby_channel_ID))
     if message.channel.id == Id.Lobby_channel_ID:
         return True
     else: return False
